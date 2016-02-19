@@ -1,0 +1,25 @@
+.about>*{
+  margin-top: 1em;
+}
+.fullname{
+  font-weight: bold;
+}
+.nif::before{
+  content: 'NIF: '
+};
+.tel::before{
+  content: 'Tel: '
+};
+.address{
+  p{
+    line-height:normal;
+    margin: 0px;
+  }
+}
+.cae::before{
+  content: 'CAEs:';
+}
+
+.contacts .address{
+  margin-bottom: 1em;
+}
