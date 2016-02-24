@@ -79,9 +79,16 @@
   }
 }
 
-.footer{
-  position: absolute;
-  bottom: 0;
+html{
+  height: 100%;
   width: 100%;
-  text-align: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
 }
